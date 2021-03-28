@@ -1,4 +1,4 @@
-package lab1.level1;
+package lab1.day1;
 
 public abstract class Person {
 	private String name;

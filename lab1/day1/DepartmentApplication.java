@@ -1,4 +1,4 @@
-package lab1.level1;
+package lab1.day1;
 import java.io.*;                 // for I/O
 import java.lang.Integer;  
 import java.util.Scanner;

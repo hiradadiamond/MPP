@@ -1,4 +1,4 @@
-package lab3.lab3;
+package lab3.day2;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package lab3.lab3;
+package lab3.day2;
 
 public class Employee {
 	private static int employeeID = 0;
