@@ -45,10 +45,16 @@ public class Position {
 		this.inferiorLists.add(p);
 	}
 	public void print() {
-		this.emp.print();
+		if(this.emp == null)
+			System.out.println("For this "+ this.title+ " Positon, There is no Employee!!");
+		else{
+			this.emp.print();
+		}
 	}
 	
 	public double getSalary() {
+		if(this.emp == null)
+			return 0;
 		return this.emp.getSalary();
 	}
 	public String getTitle() {

@@ -18,6 +18,8 @@ public class Application {
 		Position salesManPosition3 = new Position("SalesMan3", "SalesPerson", seniorSalesManPosition1, salesDepartment);
 		Position salesManPosition4 = new Position("SalesMan4", "SalesPerson", seniorSalesManPosition2, salesDepartment);
 		Position salesManPosition5 = new Position("SalesMan5", "SalesPerson", seniorSalesManPosition2, salesDepartment);
+		Position salesManPosition6 = new Position("SalesMan6", "SalesPerson", seniorSalesManPosition2, salesDepartment);
+
 
 		Position marketingDeptHeadPosition = new Position("MarketingDepartment-Head","HEAD", ceoPosition, executiveDepartment);
 		Position seniorMarketerPosition = new Position("Senior-Marketing-Person", "Senior-Marketing-Person", marketingDeptHeadPosition,marketingDepartment);
@@ -49,6 +51,7 @@ public class Application {
 		salesDepartment.addPosition(salesManPosition3);
 		salesDepartment.addPosition(salesManPosition4);
 		salesDepartment.addPosition(salesManPosition5);
+		salesDepartment.addPosition(salesManPosition6);
 
 		
 		marketingDepartment.addPosition(marketingDeptHeadPosition);

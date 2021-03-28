@@ -17,7 +17,8 @@ public class Company {
 	}
 	
 	public void print() {
-		departments.forEach(d-> d.print());
+		for(Department d: departments)
+			d.print();
 	}
 	
 	public double getSlary() {
