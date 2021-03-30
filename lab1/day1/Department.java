@@ -53,7 +53,7 @@ public class Department {
 		StringBuilder output = new StringBuilder();
 		output.append(this.getName() + "\n");
 		for (Person p : persons) {
-				p.print();
+			p.print();
 		}
 		System.out.println(output.toString());
 	}
