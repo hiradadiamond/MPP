@@ -53,13 +53,7 @@ public class Department {
 		StringBuilder output = new StringBuilder();
 		output.append(this.getName() + "\n");
 		for (Person p : persons) {
-			output.append(p.getClass().getSimpleName() + "- ");
-			output.append(p);
-			if (p instanceof Student) {
-				Student stu = (Student) p;
-				output.append(" GPA: " + stu.getGpa());
-			}
-			output.append("\n");
+				p.print();
 		}
 		System.out.println(output.toString());
 	}

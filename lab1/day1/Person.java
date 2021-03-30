@@ -36,11 +36,17 @@ public abstract class Person {
 		output.append("Name: " + this.getName() + ", ");
 		output.append("Age: " + this.getAge() + ", ");
 		output.append("Phone: " + this.getPhone() + ", ");
-		output.append("Salary: "+ this.getSalary());
+		output.append("Type: "+ this.getClass().getSimpleName());
 		return output.toString();
 	}
 	
 	public void addCourse(Course s) {}
 	public abstract double getSalary();
+
+	public void print() {
+		System.out.print(this);
+		System.out.println();
+		
+	}
     
 }
