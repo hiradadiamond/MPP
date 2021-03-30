@@ -50,12 +50,10 @@ public class Department {
 //	}
 
 	public void showAllMembers() {
-		StringBuilder output = new StringBuilder();
-		output.append(this.getName() + "\n");
 		for (Person p : persons) {
 			p.print();
 		}
-		System.out.println(output.toString());
+		System.out.println();
 	}
 
 	public void unitsPerFaculty() {
